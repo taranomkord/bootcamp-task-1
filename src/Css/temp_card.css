@@ -1,13 +1,3 @@
-/*Reset*/
-::after , 
-::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow-x: hidden;
-} 
-
 /*Root variable*/
 :root {
     /*رنگ بک گراند*/
@@ -67,7 +57,7 @@ p {
 
 /*Request Bax*/
 .request-box {
-    height: 100PX;
+  height: 100PX;
   display: grid;
   grid-template-columns: repeat(1 ,1fr);
   justify-content: center;
@@ -163,4 +153,3 @@ p {
 .request-card .btn:hover {
     box-shadow: 0 0 12px var(--color-btn-bg);
 }
-moved card.css to css folder
